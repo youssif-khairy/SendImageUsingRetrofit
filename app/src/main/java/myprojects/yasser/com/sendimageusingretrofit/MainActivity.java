@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                     pathToImage = destination5.getPath();
-
+                    startsend();
 
                     //ic_profileImageIndividualsExperience.setImageBitmap(thumbnail5);
                     break;
