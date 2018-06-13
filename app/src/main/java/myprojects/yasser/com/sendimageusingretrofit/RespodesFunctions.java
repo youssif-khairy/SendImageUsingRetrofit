@@ -12,6 +12,6 @@ import retrofit2.http.Part;
 
 public interface RespodesFunctions {
     @Multipart
-    @POST("Change_With_function_name")
+    @POST("getImage")
     Call<RespondeData>send_image(@Part MultipartBody.Part image);
 }
